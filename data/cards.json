@@ -1,0 +1,85 @@
+{
+  "version": 2,
+  "dog": "Small black toy poodle",
+  "objectives": [
+    {"id": "O1", "name": "Let off steam"},
+    {"id": "O2", "name": "Tire him out"},
+    {"id": "O3", "name": "Manners in other people's homes"},
+    {"id": "O4", "name": "Being by himself"},
+    {"id": "O5", "name": "Being home alone"},
+    {"id": "O6", "name": "Not eating something he found"},
+    {"id": "O7", "name": "Not following something exciting"},
+    {"id": "O8", "name": "Time with other dogs"},
+    {"id": "O9", "name": "New people, places and experiences"}
+  ],
+  "cards": [
+    {
+      "id": "whiplash", "title": "Whiplash Head Turn", "front": "🔄", "art": "whiplash",
+      "setting": "either", "place": "home", "kind": "mental", "mode": "solo", "minutes": [5, 10], "level": 1,
+      "objectives": ["O7", "O6"], "needs": [],
+      "gear": ["Small, very tasty treats", "A marker word (\"Yes!\") or a clicker"],
+      "steps": [
+        "Toss a treat a few feet away and say \"Get it!\" so he knows he can eat it.",
+        "As he finishes the treat, before he looks up, say his name.",
+        "The instant his head turns back toward you, mark it (\"Yes!\" or a click) and give a really special reward.",
+        "Repeat, tossing a little farther each time as his confidence grows.",
+        "Variation: as he grabs one treat, say his name and toss another in a different direction. Keep going until he is racing back and forth."
+      ],
+      "tips": [
+        "Timing matters: mark while his head is turning back to you, which encourages the fast turn.",
+        "If he loves to run, toss farther so he gets to run more.",
+        "Great for energetic dogs; the back-and-forth variation builds excitement for the head turn."
+      ],
+      "levelUp": "He snaps his head back to you quickly, even when the treat is tossed farther away.",
+      "source": "Mardi Richmond, Whole Dog Journal (2014, updated 2022)"
+    },
+    {
+      "id": "stop_build", "title": "Build the Stop Cue", "front": "🛑", "art": "stop_build",
+      "setting": "indoor", "place": "home", "kind": "mental", "mode": "solo", "minutes": [5, 10], "level": 1,
+      "objectives": ["O7", "O6"], "needs": [],
+      "gear": ["A leash short enough to reach his nose", "Over-the-top treats, in tiny pieces", "A release word (\"All done!\")", "A quiet room"],
+      "steps": [
+        "First decide what Stop means to you. Here: stop what you're doing, come back to me, and get a big reward.",
+        "Pick a quiet spot like the living room or kitchen. Keep him on a leash short enough to reach his nose.",
+        "Part 1: say \"Stop.\" Right away put a really good treat at his nose.",
+        "Keep feeding as you back up a few steps and he follows: 15 treats or more, with warm praise.",
+        "Say \"All done!\" to end. Repeat Part 1 at least 5 times.",
+        "Part 2: say \"Stop,\" then pause. The moment he starts to turn toward you, expecting the treats, mark it.",
+        "Then give the same treat stream (15 or more) while backing up, and end with \"All done!\"",
+        "Repeat Part 2 at least 10 times, then take a break."
+      ],
+      "tips": [
+        "Don't make Stop mean \"stop and stay far away\". Distance is much harder to train.",
+        "Not working? Use better treats. He may be giving up something great to come to you.",
+        "Be generous. At least 15 pieces each time, and he decides what is generous enough.",
+        "Too exciting? Make the set-up easier.",
+        "Use the leash only to keep him from wandering off, never to pull him in.",
+        "Toy-size dog: use tiny pieces and count them toward his daily food."
+      ],
+      "levelUp": "He swings toward you the moment he hears \"Stop\" in the quiet room. Next: Stop, Then Back to Play.",
+      "source": "\"Stop\" cue article (title and author unknown)"
+    },
+    {
+      "id": "stop_reward", "title": "Stop, Then Back to Play", "front": "🚦", "art": "stop_reward",
+      "setting": "either", "place": "home", "kind": "physical", "mode": "team", "minutes": [10, 30], "level": 2,
+      "objectives": ["O8", "O1", "O7"], "needs": ["stop_build"],
+      "gear": ["A leash", "Over-the-top treats", "Something he loves to go back to: a playmate dog, ball, tug, or dinner"],
+      "steps": [
+        "Pick something he really wants to go back to: play with another dog, a ball, tug, chase, or dinner.",
+        "Start with low distractions. While he's doing that activity, say \"Stop\" and give the treat stream as before.",
+        "Say \"All done!\" and let him go right back to what he was doing. That is the second reward.",
+        "With another dog, start with both dogs on leash, just looking at each other from at least 10 feet away.",
+        "Slowly let play run longer between Stop breaks, and add new toys or more excitement before each Stop.",
+        "If he doesn't enjoy that playmate, the break itself is the reward."
+      ],
+      "tips": [
+        "Don't jump from living-room practice straight to free play in the yard.",
+        "Keep him on a leash or otherwise controlled early on, so you decide how it goes.",
+        "If it's too hard to leave the activity, make the set-up less exciting.",
+        "No other dog? A ball, tug, or chase works as the \"back to play\" reward."
+      ],
+      "levelUp": "He breaks off play when you say \"Stop,\" runs to you for treats, then happily goes back. Next: use Stop in real life (door, window, squirrels).",
+      "source": "\"Stop\" cue article (title and author unknown)"
+    }
+  ]
+}
