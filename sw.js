@@ -1,6 +1,6 @@
 // Cache-first service worker so the app works offline.
 // Bump CACHE when files change.
-const CACHE = 'dog-loteria-v7';
+const CACHE = 'dog-loteria-v10';
 const FILES = [
   './', './index.html', './styles.css', './manifest.webmanifest', './icon.svg',
   './js/app.js', './js/storage.js', './js/hand.js', './js/art.js', './data/cards.json'
